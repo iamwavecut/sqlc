@@ -26,9 +26,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/sqlc-dev/sqlc/internal/cache"
-	"github.com/sqlc-dev/sqlc/internal/info"
-	"github.com/sqlc-dev/sqlc/internal/plugin"
+	"github.com/iamwavecut/sqlc/internal/cache"
+	"github.com/iamwavecut/sqlc/internal/info"
+	"github.com/iamwavecut/sqlc/internal/plugin"
 )
 
 // This version must be updated whenever the wasmtime-go dependency is updated

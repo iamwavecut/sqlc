@@ -7,9 +7,9 @@ import (
 
 	"github.com/antlr/antlr4/runtime/Go/antlr/v4"
 
-	"github.com/sqlc-dev/sqlc/internal/engine/sqlite/parser"
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/iamwavecut/sqlc/internal/engine/sqlite/parser"
+	"github.com/iamwavecut/sqlc/internal/source"
+	"github.com/iamwavecut/sqlc/internal/sql/ast"
 )
 
 type errorListener struct {

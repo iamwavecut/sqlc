@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/sqlc-dev/sqlc/internal/bundler"
+	"github.com/iamwavecut/sqlc/internal/bundler"
 )
 
 func createPkg(ctx context.Context, dir, filename string, opts *Options) error {

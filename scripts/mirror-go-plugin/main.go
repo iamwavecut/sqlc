@@ -35,32 +35,32 @@ func main() {
 		os.MkdirAll(filepath.Dir(newpath), 0755)
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/codegen/golang/opts"`),
-			[]byte(`"github.com/sqlc-dev/sqlc-gen-go/internal/opts"`))
+			[]byte(`"github.com/iamwavecut/sqlc/internal/codegen/golang/opts"`),
+			[]byte(`"github.com/iamwavecut/sqlc-gen-go/internal/opts"`))
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/plugin"`),
+			[]byte(`"github.com/iamwavecut/sqlc/internal/plugin"`),
 			[]byte(`"github.com/sqlc-dev/plugin-sdk-go/plugin"`))
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/codegen/sdk"`),
+			[]byte(`"github.com/iamwavecut/sqlc/internal/codegen/sdk"`),
 			[]byte(`"github.com/sqlc-dev/plugin-sdk-go/sdk"`))
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/metadata"`),
+			[]byte(`"github.com/iamwavecut/sqlc/internal/metadata"`),
 			[]byte(`"github.com/sqlc-dev/plugin-sdk-go/metadata"`))
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/pattern"`),
+			[]byte(`"github.com/iamwavecut/sqlc/internal/pattern"`),
 			[]byte(`"github.com/sqlc-dev/plugin-sdk-go/pattern"`))
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/debug"`),
-			[]byte(`"github.com/sqlc-dev/sqlc-gen-go/internal/debug"`))
+			[]byte(`"github.com/iamwavecut/sqlc/internal/debug"`),
+			[]byte(`"github.com/iamwavecut/sqlc-gen-go/internal/debug"`))
 
 		contents = bytes.ReplaceAll(contents,
-			[]byte(`"github.com/sqlc-dev/sqlc/internal/inflection"`),
-			[]byte(`"github.com/sqlc-dev/sqlc-gen-go/internal/inflection"`))
+			[]byte(`"github.com/iamwavecut/sqlc/internal/inflection"`),
+			[]byte(`"github.com/iamwavecut/sqlc-gen-go/internal/inflection"`))
 
 		if err := os.WriteFile(newpath, contents, 0644); err != nil {
 			return err

@@ -7,10 +7,10 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/info"
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
+	"github.com/iamwavecut/sqlc/internal/config"
+	"github.com/iamwavecut/sqlc/internal/info"
+	"github.com/iamwavecut/sqlc/internal/quickdb"
+	pb "github.com/iamwavecut/sqlc/internal/quickdb/v1"
 )
 
 var ErrNoProject = errors.New(`project uploads require a cloud project

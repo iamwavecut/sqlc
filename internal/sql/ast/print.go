@@ -3,7 +3,7 @@ package ast
 import (
 	"strings"
 
-	"github.com/sqlc-dev/sqlc/internal/debug"
+	"github.com/iamwavecut/sqlc/internal/debug"
 )
 
 type formatter interface {

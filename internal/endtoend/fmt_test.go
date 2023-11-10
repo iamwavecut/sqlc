@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/iamwavecut/sqlc/internal/debug"
+	"github.com/iamwavecut/sqlc/internal/engine/postgresql"
+	"github.com/iamwavecut/sqlc/internal/sql/ast"
 	pg_query "github.com/pganalyze/pg_query_go/v4"
-	"github.com/sqlc-dev/sqlc/internal/debug"
-	"github.com/sqlc-dev/sqlc/internal/engine/postgresql"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
 )
 
 func TestFormat(t *testing.T) {

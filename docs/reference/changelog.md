@@ -352,7 +352,7 @@ We've completed our migration to the [sqlc-dev/sqlc](https://github.com/sqlc-dev
 go install github.com/kyleconroy/sqlc/cmd/sqlc@v1.20.0
 
 # CORRECT: new import path
-go install github.com/sqlc-dev/sqlc/cmd/sqlc@v1.20.0
+go install github.com/iamwavecut/sqlc/cmd/sqlc@v1.20.0
 ```
 
 We designed the upgrade process to be as smooth as possible. If you run into any issues, please [file a bug report](https://github.com/sqlc-dev/sqlc/issues/new?assignees=&labels=bug%2Ctriage&projects=&template=BUG_REPORT.yml) via GitHub.

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	"github.com/iamwavecut/sqlc/internal/quickdb"
+	pb "github.com/iamwavecut/sqlc/internal/quickdb/v1"
+	"github.com/iamwavecut/sqlc/internal/sql/sqlpath"
 )
 
 var client pb.QuickClient

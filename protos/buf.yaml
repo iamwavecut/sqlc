@@ -1,5 +1,5 @@
 version: v1
-name: github.com/sqlc-dev/sqlc
+name: github.com/iamwavecut/sqlc
 breaking:
 lint:
   use:

@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	"github.com/iamwavecut/sqlc/internal/config"
+	pb "github.com/iamwavecut/sqlc/internal/quickdb/v1"
+	"github.com/iamwavecut/sqlc/internal/sql/sqlpath"
 )
 
 func readInputs(file string, conf *config.Config) ([]*pb.File, error) {

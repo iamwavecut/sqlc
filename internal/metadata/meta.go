@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/sqlc-dev/sqlc/internal/source"
+	"github.com/iamwavecut/sqlc/internal/source"
 )
 
 type CommentSyntax source.CommentSyntax

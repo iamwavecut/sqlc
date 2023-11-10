@@ -3,9 +3,9 @@ package compiler
 import (
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
-	"github.com/sqlc-dev/sqlc/internal/sql/rewrite"
+	"github.com/iamwavecut/sqlc/internal/sql/ast"
+	"github.com/iamwavecut/sqlc/internal/sql/catalog"
+	"github.com/iamwavecut/sqlc/internal/sql/rewrite"
 )
 
 type QueryCatalog struct {

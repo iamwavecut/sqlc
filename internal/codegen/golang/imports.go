@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/sqlc-dev/sqlc/internal/codegen/golang/opts"
-	"github.com/sqlc-dev/sqlc/internal/metadata"
+	"github.com/iamwavecut/sqlc/internal/codegen/golang/opts"
+	"github.com/iamwavecut/sqlc/internal/metadata"
 )
 
 type fileImports struct {

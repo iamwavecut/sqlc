@@ -8,8 +8,8 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/iamwavecut/sqlc/internal/source"
+	"github.com/iamwavecut/sqlc/internal/sql/ast"
 )
 
 func NewParser() *Parser {

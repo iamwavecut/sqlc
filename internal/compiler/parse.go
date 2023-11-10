@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sqlc-dev/sqlc/internal/debug"
-	"github.com/sqlc-dev/sqlc/internal/metadata"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/astutils"
-	"github.com/sqlc-dev/sqlc/internal/sql/validate"
+	"github.com/iamwavecut/sqlc/internal/debug"
+	"github.com/iamwavecut/sqlc/internal/metadata"
+	"github.com/iamwavecut/sqlc/internal/opts"
+	"github.com/iamwavecut/sqlc/internal/source"
+	"github.com/iamwavecut/sqlc/internal/sql/ast"
+	"github.com/iamwavecut/sqlc/internal/sql/astutils"
+	"github.com/iamwavecut/sqlc/internal/sql/validate"
 )
 
 var ErrUnsupportedStatementType = errors.New("parseQuery: unsupported statement type")

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/iamwavecut/sqlc/internal/sqltest/hosted"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/hosted"
 )
 
 func TestBatchBooks(t *testing.T) {

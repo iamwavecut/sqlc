@@ -3,9 +3,9 @@ package validate
 import (
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/astutils"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlerr"
+	"github.com/iamwavecut/sqlc/internal/sql/ast"
+	"github.com/iamwavecut/sqlc/internal/sql/astutils"
+	"github.com/iamwavecut/sqlc/internal/sql/sqlerr"
 )
 
 type sqlcFuncVisitor struct {

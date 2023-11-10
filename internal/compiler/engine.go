@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/analyzer"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/engine/dolphin"
-	"github.com/sqlc-dev/sqlc/internal/engine/postgresql"
-	pganalyze "github.com/sqlc-dev/sqlc/internal/engine/postgresql/analyzer"
-	"github.com/sqlc-dev/sqlc/internal/engine/sqlite"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
+	"github.com/iamwavecut/sqlc/internal/analyzer"
+	"github.com/iamwavecut/sqlc/internal/config"
+	"github.com/iamwavecut/sqlc/internal/engine/dolphin"
+	"github.com/iamwavecut/sqlc/internal/engine/postgresql"
+	pganalyze "github.com/iamwavecut/sqlc/internal/engine/postgresql/analyzer"
+	"github.com/iamwavecut/sqlc/internal/engine/sqlite"
+	"github.com/iamwavecut/sqlc/internal/opts"
+	"github.com/iamwavecut/sqlc/internal/quickdb"
+	pb "github.com/iamwavecut/sqlc/internal/quickdb/v1"
+	"github.com/iamwavecut/sqlc/internal/sql/catalog"
 )
 
 type Compiler struct {
